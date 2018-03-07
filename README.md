@@ -1,4 +1,4 @@
-# PasswordView
+# GesturePasswordView
 一个手势密码的轻量级实现，简单，可靠。
 
 </br></br>
