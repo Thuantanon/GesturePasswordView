@@ -5,7 +5,6 @@
 实现效果
 -----
 
-
 ![](https://github.com/Thuantanon/PasswordView/blob/master/simple/simple.gif)
 
 </br></br>
@@ -16,7 +15,7 @@ Gradle方式导入
 
 ```Java
 allprojects {
-		repositories {
+	repositories {
 		...
 		maven { url 'https://jitpack.io' }
 	}
@@ -27,7 +26,7 @@ allprojects {
 
 ```Java
 dependencies {
-	   compile 'com.github.Thuantanon:PasswordView:v1.0'
+	compile 'com.github.Thuantanon:PasswordView:v1.0'
 }
 ```
 
@@ -84,5 +83,4 @@ mPasswordView = findViewById(R.id.password_view);
        }
   });
 ```
-</br></br>
 </br></br>
