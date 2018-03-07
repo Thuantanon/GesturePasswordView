@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="PasswordView">
+        <!-- 默认内圆颜色 -->
+        <attr name="gesture_default_color" format="color"/>
+        <!-- 选中时外圆颜色 -->
+        <attr name="gesture_selected_circle_outer_color" format="color"/>
+        <!-- 选中时内圆颜色 -->
+        <attr name="gesture_selected_circle_inner_color" format="color"/>
+        <!-- 错误时外圆颜色 -->
+        <attr name="gesture_error_circle_outer_color" format="color"/>
+        <!-- 错误时内圆颜色 -->
+        <attr name="gesture_error_circle_inner_color" format="color"/>
+        <!-- 内圆半径 -->
+        <attr name="gesture_circle_inner_radius" format="dimension"/>
+        <!-- 外圆半径 -->
+        <attr name="gesture_circle_outer_radius" format="dimension"/>
+        <!-- 连接线粗细 -->
+        <attr name="gesture_line_stroke" format="dimension"/>
+    </declare-styleable>
+
+</resources>
