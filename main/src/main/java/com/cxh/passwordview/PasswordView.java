@@ -245,7 +245,7 @@ public class PasswordView extends View {
             case MotionEvent.ACTION_DOWN: {
                 if (!isDelaying) {
                     // 解决滑动冲突问题
-                    requestDisallowInterceptTouchEvent(true);
+                    getParent().requestDisallowInterceptTouchEvent(true);
                     isPressed = true;
                     mPressedX = event.getX();
                     mPressedY = event.getY();
