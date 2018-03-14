@@ -26,7 +26,7 @@ allprojects {
 
 ```Java
 dependencies {
-	compile 'com.github.Thuantanon:GesturePasswordView:1.02'
+	compile 'com.github.Thuantanon:GesturePasswordView:1.04'
 }
 ```
 
